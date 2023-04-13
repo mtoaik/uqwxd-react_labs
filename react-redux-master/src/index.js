@@ -6,7 +6,7 @@ import App from './App';
 import {createStore} from 'redux';
 import {Provider} from 'react-redux'
 import myReducers from './reducers'
-
+//import {legacy_createStore as createStore} from 'redux';;
 
 //Create the store
 const myStore = createStore(myReducers);
